@@ -2,6 +2,12 @@
 
 sbit ExtInt0 = P3^2;	//Õ‚≤ø÷–∂œ0
 sbit LED0 = P0^0;
+
+
+void Delay_us(unsigned int time)
+{
+	while(time--);
+}
 void Delay_us(unsigned int time)
 {
 	while(time--);
